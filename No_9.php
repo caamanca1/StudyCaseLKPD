@@ -8,8 +8,8 @@
 <body>
   <form method="post" action="#">
     <tr>
-      <label for="suhu">Input Suhu</label>
-      <input type="text" name="suhu" id="suhu">
+      <label for="suhu fahreinheit">Input Suhu Fahrenheit</label>
+      <input type="text" name="suhufahrenheit" id="suhufahrenheit">
       <input type="submit" value="Submit" name="submit">
     </tr>
   </form>
@@ -17,15 +17,15 @@
   <?php
 
   if (isset($_POST['submit'])) {
-    $suhu = $_POST['suhu'];
-    $suhuf;
+    $suhufahrenheit = $_POST['suhufahrenheit'];
+    $suhucelcius;
 
-    $suhuf = $suhu / 33.8;
+    $suhucelcius = $suhufahrenheit / 33.8;
 
-    if($suhu > 30){
+    if($suhucelcius > 30){
       echo "panas";
     }
-    elseif($suhu > 25){
+    elseif($suhucelcius > 25){
       echo "dingin";
     }
     else{
