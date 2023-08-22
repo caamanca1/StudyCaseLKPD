@@ -22,10 +22,10 @@
 
     $suhuf = $suhu / 33.8;
 
-    if($suhu > 300){
+    if($suhu > 30){
       echo "panas";
     }
-    elseif($suhu > 250){
+    elseif($suhu > 25){
       echo "dingin";
     }
     else{

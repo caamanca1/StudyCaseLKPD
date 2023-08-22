@@ -22,7 +22,7 @@
     $bilangan = $_POST['bilangan'];
     $satuan = $bilangan % 10;
     $puluhan = ($bilangan / 10 ) % 10;
-    $ratusan = $bilangan / 100;
+    $ratusan = $bilangan % 1000;
     echo "Ratusan = $ratusan<br>";
     echo "Puluhan = $puluhan<br>";
     echo "Satuan = $satuan<br>";
