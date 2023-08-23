@@ -35,36 +35,112 @@
     
     if ($bulan == 1) {
       $bulan = "Januari";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 2) {
       $bulan = "Februari";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 3) {
       $bulan = "Maret";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 4) {
       $bulan = "April";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 5) {
       $bulan = "Mei";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 6) {
       $bulan = "Juni";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 7) {
       $bulan = "Juli";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 8) {
       $bulan = "Agustus";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 9) {
       $bulan = "September";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 10) {
       $bulan = "Oktober";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
     } elseif ($bulan == 11) {
       $bulan = "November";
-    } else {
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
+    } elseif ($bulan == 12) {
       $bulan = "Desember";
+      $tanggal_lahir = $tanggal . $bulan . $tahun;
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
+      echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
+      echo "</tr>";
+      echo "</table>";
+    } else {
+      echo "<table class='tabelshow' border='0'><tr>";
+      echo "<th><h2>Mohon Inputkan Ulang Bulan Kelahiran Anda! <br><h4>(Bulan Kelahiran Tidak Valid.)</h4></h2></th>";
+      echo "</tr>";
+      echo "</table>";
     }
-
-    $tanggal_lahir = $tanggal . $bulan . $tahun;
-    echo "<table class='tabelshow' border='0'><tr>";
-    echo "<th><h2>DATA PEGAWAI</h2>" . $no_golongan . $tanggal . $month . $tahun . $no_urut . "</th>";
-    echo "<td><h4> No Golongan : " . $no_golongan . "<br><h4> Tanggal Lahir : " . $tanggal_lahir . "<br><h4>No. Urut : " . $no_urut . "</h4></td>";
-    echo "</tr>";
-    echo "</table>";
     // echo $no_golongan, $tanggal_lahir, $no_urut;
   }
   ?>
