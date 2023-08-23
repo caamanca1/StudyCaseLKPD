@@ -22,7 +22,7 @@ $bilangan_ketiga;
           Bilangan Kesatu
         </td>
         <td>
-          <input type="number" name="bilangan_pertama">
+          <input type="number" name="bilangan_pertama" maxlength="3">
         </td>
       </tr>
       <tr>
@@ -30,7 +30,7 @@ $bilangan_ketiga;
           Bilangan Kedua
         </td>
         <td>
-          <input type="number" name="bilangan_kedua">
+          <input type="number" name="bilangan_kedua" maxlength="3">
         </td>
       </tr>
       <tr>
@@ -38,7 +38,7 @@ $bilangan_ketiga;
           Bilangan Ketiga
         </td>
         <td>
-          <input type="number" name="bilangan_ketiga">
+          <input type="number" name="bilangan_ketiga" maxlength="3">
         </td>
       </tr>
       <tr>

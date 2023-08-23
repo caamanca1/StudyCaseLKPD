@@ -26,10 +26,10 @@
       echo "panas";
     }
     elseif($suhucelcius > 25){
-      echo "dingin";
+      echo "Normal";
     }
     else{
-      echo "normal";
+      echo "dingin";
     }
   }
 
